@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 2em;
+}
+
+#main {
+    display: flex;
+    flex: 4;
+}
+
+article,
+nav,
+aside {
+    background-color: beige;
+}
+
+header,
+footer {
+    background-color: grey;
+    margin: 2px;
+}
+
+article,
+nav,
+aside,
+header,
+footer {
+   padding: 3rem;
+   margin: 1px;
+   flex: 1;
+}
